@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6B46DF-0143-71F1-E6FC-5026C7EDAEE8}|MauiAppHotel\\MauiAppHotel.csproj|c:\\users\\notefatec\\desktop\\fatec-semestres\\semestre_5\\dev-dips-moveis\\mauiapphotel\\mauiapphotel\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6B46DF-0143-71F1-E6FC-5026C7EDAEE8}|MauiAppHotel\\MauiAppHotel.csproj|solutionrelative:mauiapphotel\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6B46DF-0143-71F1-E6FC-5026C7EDAEE8}|MauiAppHotel\\MauiAppHotel.csproj|c:\\users\\notefatec\\desktop\\fatec-semestres\\semestre_5\\dev-dips-moveis\\mauiapphotel\\mauiapphotel\\views\\contratacaohospedagem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4A6B46DF-0143-71F1-E6FC-5026C7EDAEE8}|MauiAppHotel\\MauiAppHotel.csproj|solutionrelative:mauiapphotel\\views\\contratacaohospedagem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6B46DF-0143-71F1-E6FC-5026C7EDAEE8}|MauiAppHotel\\MauiAppHotel.csproj|c:\\users\\notefatec\\desktop\\fatec-semestres\\semestre_5\\dev-dips-moveis\\mauiapphotel\\mauiapphotel\\views\\contratacaohospedagem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6B46DF-0143-71F1-E6FC-5026C7EDAEE8}|MauiAppHotel\\MauiAppHotel.csproj|solutionrelative:mauiapphotel\\views\\contratacaohospedagem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\MauiAppHotel\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppHotel\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\MauiAppHotel\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "MauiAppHotel\\Views\\Login.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T12:11:02.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContratacaoHospedagem.xaml",
+              "DocumentMoniker": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\MauiAppHotel\\Views\\ContratacaoHospedagem.xaml",
+              "RelativeDocumentMoniker": "MauiAppHotel\\Views\\ContratacaoHospedagem.xaml",
+              "ToolTip": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\MauiAppHotel\\Views\\ContratacaoHospedagem.xaml",
+              "RelativeToolTip": "MauiAppHotel\\Views\\ContratacaoHospedagem.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T11:53:55.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContratacaoHospedagem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\MauiAppHotel\\Views\\ContratacaoHospedagem.xaml.cs",
+              "RelativeDocumentMoniker": "MauiAppHotel\\Views\\ContratacaoHospedagem.xaml.cs",
+              "ToolTip": "C:\\Users\\notefatec\\Desktop\\Fatec-Semestres\\Semestre_5\\dev-dips-moveis\\MauiAppHotel\\MauiAppHotel\\Views\\ContratacaoHospedagem.xaml.cs",
+              "RelativeToolTip": "MauiAppHotel\\Views\\ContratacaoHospedagem.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T11:51:09.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

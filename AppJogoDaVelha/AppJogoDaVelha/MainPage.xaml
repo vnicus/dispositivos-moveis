@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJogoDaVelha.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="Purple" Offset="0.3"/>
+            <GradientStop Color="Red" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="CornerRadius" Value="5" />
+            <Setter Property="TextColor" Value="Wheat"/>
+            <Setter Property="FontSize" Value="80"/>
+            <Setter Property="BorderColor" Value="White"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="*, *, *, *, *, *" 
+              ColumnDefinitions="*, *, *" 
+              ColumnSpacing="5" RowSpacing="5" Margin="15">
+            
+            <Label Grid.ColumnSpan="3" Grid.Row="0" Grid.Column="0" Text="Jogo da Velha" FontSize="30" HorizontalTextAlignment="Center"/>
+            
+            <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked"/>
+            <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button x:Name="btn12" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
+
+            <Button x:Name="btn20" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked"/>
+            <Button x:Name="btn21" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button x:Name="btn22" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked"/>
+
+            <Button x:Name="btn30" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked"/>
+            <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button x:Name="btn32" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked"/>
+
+            <Label x:Name="LabelInfo" Grid.ColumnSpan="3" Grid.Row="4" Grid.Column="0" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Button x:Name="btnReset" Grid.ColumnSpan="3" Grid.Row="5" Grid.Column="0" IsVisible="False" FontSize="20" Text="Reniciar Jogo" Clicked="btnReset_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+    
+</ContentPage>
