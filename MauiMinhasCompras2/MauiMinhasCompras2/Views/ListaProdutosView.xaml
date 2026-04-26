@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiMinhasCompras2.Views.ListaProdutosView"
+             Title="Lista de Produtos">
+
+    <!-- Botões da barras de navegação -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Somar" Clicked="ToolbarItem_Clicked_Somar"/>
+        <ToolbarItem Text="Adicionar" Clicked="ToolbarItem_Clicked_Adicionar"/>
+    </ContentPage.ToolbarItems>
+
+    <!-- Definição dos futuros estilos da tela -->
+    <ContentPage.Resources>
+        
+    </ContentPage.Resources>
+
+    <!-- Tag body do XAML-->
+    <ContentPage.Content>
+
+        <VerticalStackLayout Margin="10" Spacing="5">
+
+            <SearchBar x:Name="txt_search"
+                       Placeholder="Busque seu produto"
+                       TextChanged="txt_search_TextChanged" />
+
+            <Border Margin="5" StrokeShape="RoundRectangle 10">
+                
+                <VerticalStackLayout VerticalOptions="Center">
+
+                    <Border Padding="10" Margin="5" 
+                            StrokeShape="RoundRectangle 10" 
+                            BackgroundColor="{StaticResource Primary}">
+
+                        <Grid ColumnDefinitions="30, 100, 70, 80, 70">
+                            <Label Grid.Column="0" Text="Id" FontAttributes="Bold" TextColor="White"/>
+                            <Label Grid.Column="1" Text="Descricao" FontAttributes="Bold" TextColor="White" />
+                            <Label Grid.Column="2" Text="Preco" FontAttributes="Bold" TextColor="White"/>
+                            <Label Grid.Column="3" Text="Quant." FontAttributes="Bold" TextColor="White" />
+                            <Label Grid.Column="4" Text="Total" FontAttributes="Bold" TextColor="White" />
+                        </Grid>
+                    
+                    </Border>
+
+                    <CollectionView x:Name="list_produtos" >
+
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="2"/>
+                        </CollectionView.ItemsLayout>
+                        
+                        <CollectionView.ItemTemplate>
+
+                            <DataTemplate>
+                                
+                                <Border Padding="15" 
+                                        StrokeShape="RoundRectangle 10" 
+                                        BackgroundColor="White">
+
+                                    <SwipeView>
+                                        
+                                        <SwipeView.RightItems>
+                                            
+                                            <SwipeItems>
+                                                <SwipeItem Text="Editar"
+                                                           BackgroundColor="Green"
+                                                           Clicked="SwipeItem_Clicked_Editar"/>
+                                                <SwipeItem Text="Remover"
+                                                           BackgroundColor="Red"
+                                                           Clicked="SwipeItem_Clicked_Remover"/>
+                                            </SwipeItems>
+                                            
+                                        </SwipeView.RightItems>
+
+                                        <VerticalStackLayout BackgroundColor="White">
+                                            
+                                            <Grid ColumnDefinitions="30, 100, 70, 80, 70">
+                                                <Label Grid.Column="0" Text="{Binding Id}" />
+                                                <Label Grid.Column="1" Text="{Binding Descricao}" />
+                                                <Label Grid.Column="2" Text="{Binding Preco, StringFormat='{0:C}'}" />
+                                                <Label Grid.Column="3" Text="{Binding Quantidade}" />
+                                                <Label Grid.Column="4" Text="{Binding Total, StringFormat='{0:C}'}" />
+                                            </Grid>
+                                            
+                                        </VerticalStackLayout>
+                                        
+                                    </SwipeView>
+                                    
+                                </Border>
+                                
+                            </DataTemplate>
+
+                        </CollectionView.ItemTemplate>
+
+                    </CollectionView>
+
+                </VerticalStackLayout>
+                
+            </Border>
+
+        </VerticalStackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

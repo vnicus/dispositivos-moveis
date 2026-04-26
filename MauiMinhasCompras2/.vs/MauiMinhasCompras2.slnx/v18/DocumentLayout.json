@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\vida-academica\\dispositivos-moveis\\MauiMinhasCompras2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{241BA0CF-28FE-8C03-9599-DF069F7415D8}|MauiMinhasCompras2\\MauiMinhasCompras2.csproj|c:\\vida-academica\\dispositivos-moveis\\mauiminhascompras2\\mauiminhascompras2\\views\\listaprodutosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{241BA0CF-28FE-8C03-9599-DF069F7415D8}|MauiMinhasCompras2\\MauiMinhasCompras2.csproj|solutionrelative:mauiminhascompras2\\views\\listaprodutosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{241BA0CF-28FE-8C03-9599-DF069F7415D8}|MauiMinhasCompras2\\MauiMinhasCompras2.csproj|c:\\vida-academica\\dispositivos-moveis\\mauiminhascompras2\\mauiminhascompras2\\views\\listaprodutosview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241BA0CF-28FE-8C03-9599-DF069F7415D8}|MauiMinhasCompras2\\MauiMinhasCompras2.csproj|solutionrelative:mauiminhascompras2\\views\\listaprodutosview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListaProdutosView.xaml",
+              "DocumentMoniker": "C:\\vida-academica\\dispositivos-moveis\\MauiMinhasCompras2\\MauiMinhasCompras2\\Views\\ListaProdutosView.xaml",
+              "RelativeDocumentMoniker": "MauiMinhasCompras2\\Views\\ListaProdutosView.xaml",
+              "ToolTip": "C:\\vida-academica\\dispositivos-moveis\\MauiMinhasCompras2\\MauiMinhasCompras2\\Views\\ListaProdutosView.xaml",
+              "RelativeToolTip": "MauiMinhasCompras2\\Views\\ListaProdutosView.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwC8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-26T15:03:34.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListaProdutosView.xaml.cs",
+              "DocumentMoniker": "C:\\vida-academica\\dispositivos-moveis\\MauiMinhasCompras2\\MauiMinhasCompras2\\Views\\ListaProdutosView.xaml.cs",
+              "RelativeDocumentMoniker": "MauiMinhasCompras2\\Views\\ListaProdutosView.xaml.cs",
+              "ToolTip": "C:\\vida-academica\\dispositivos-moveis\\MauiMinhasCompras2\\MauiMinhasCompras2\\Views\\ListaProdutosView.xaml.cs",
+              "RelativeToolTip": "MauiMinhasCompras2\\Views\\ListaProdutosView.xaml.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:17:11.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
