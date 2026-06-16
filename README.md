@@ -14,7 +14,8 @@ Cada pasta representa um projeto completo desenvolvido durante as aulas, utiliza
 | [`MauiAppHotel`](./MauiAppHotel) | Aplicativo de gerenciamento/reservas de hotel |
 | [`MauiAppMinhasCompras`](./MauiAppMinhasCompras) | Lista de compras — versão inicial |
 | [`MauiAppTempoAgora`](./MauiAppTempoAgora) | App de previsão do tempo em tempo real |
-| [`MauiMinhasCompras2`](./MauiMinhasCompras2) | Lista de compras — versão aprimorada |
+| [`MauiAppHotel`](./MauiAppHotel) | App de para cadastrar atividades |
+
 
 ---
 
